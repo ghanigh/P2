@@ -1,0 +1,188 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif;
+}
+
+#main{
+    margin: 0 50px 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+}
+
+.euros{
+    font-weight: 500;
+}
+
+/* Header */
+
+header{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin-top: 50px;
+    flex: 1;
+}
+
+nav li{
+    padding-top: 50px;
+}
+
+nav a{
+    padding: 50px 50px 0;
+}
+
+.signUp{
+    color: #0065FC;
+    font-weight: 500;
+    padding: 50px 50px 0;
+}
+
+nav li a:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;
+}
+
+.search{
+    margin-bottom: 50px;
+}
+
+.search h2{
+    margin-bottom: 50px;
+}
+
+.search p{
+    margin-top: 10px;
+}
+
+.searchBar{
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+.containerMarker{
+    background-color: #f2f2f2;
+    border-radius: 10px 0 0 10px;
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.containerMarker i{
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.searchInput{
+    border: 1px solid #f2f2f2;
+    padding: 0 0 0 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 230px;
+}
+
+.searchInput::placeholder{
+    color: #c2c2c2;
+}
+
+.searchButton{
+    width: 130px;
+    background-color: #0065FC;
+    border: none;
+    padding: 0;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.searchButton i{
+    display: none;
+}
+
+/* Filters */
+
+.textFilter{
+    align-self: center;
+}
+
+.filters{
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.filter{
+    align-items: center;
+    height: 46px;
+    border: 2px solid #f2f2f2;
+    border-left: none;
+    margin-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+.filter span{
+    padding-left: 10px;
+}
+
+.filter:hover{
+    cursor: pointer;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+.filterList{
+    flex-wrap: wrap;
+}
+
+.iconFilter{
+    position: relative;
+    right: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+}
+
+.iconFilter i{
+    margin: auto;
+    color: #0065FC;
+}
+
+.iconInfo{
+    height: 50px;
+    width: 250x;
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+    margin-right: 10px;
+}
+
+.iconInfo i{
+    margin: auto;
+    font-size: .9rem;
+    color: #0065FC;  
+}
